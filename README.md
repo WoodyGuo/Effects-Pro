@@ -1,7 +1,7 @@
 Effects-Pro
 ===========
 
-A practical and easy-to-use Android application to apply several filters to an image ot once.
+A practical and easy-to-use Android application to apply several filters to an image at once.
 
 ## Features
 * Applying several filters
