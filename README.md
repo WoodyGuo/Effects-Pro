@@ -14,7 +14,7 @@ A practical and easy-to-use Android application to apply several filters to an i
 * Brightness
 * Color Depth
 * Color Filter
-* Contarst
+* Contrast
 * Emboss
 * Flip and Rotation
 * Gamma
