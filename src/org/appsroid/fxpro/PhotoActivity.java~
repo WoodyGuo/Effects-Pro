@@ -1084,17 +1084,17 @@ public class PhotoActivity extends Activity {
 				File path = Environment.getExternalStoragePublicDirectory(
 						Environment.DIRECTORY_PICTURES);
 
-				File file = new File(path, "EffectsPro");
+				File file = new File(path, "CameraPro");
 
 				try {
 					file.mkdirs();
 				} catch(Exception e) {}
 
-				file = new File(path, "EffectsPro/" + fileName + ".jpg");
+				file = new File(path, "CameraPro/" + fileName + ".jpg");
 
 				while (file.exists()) {
 					counter++;
-					file = new File(path, "EffectsPro/" + fileName + "(" + counter + ").jpg");
+					file = new File(path, "CameraPro/" + fileName + "(" + counter + ").jpg");
 				}
 
 				outputURL = file.getAbsolutePath();

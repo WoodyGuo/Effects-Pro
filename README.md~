@@ -30,6 +30,4 @@ A practical and easy-to-use Android application to apply several filters to imag
 * Tint
 * Vignette
 
-**Note:** This project uses [LocalStorageProvider](https://github.com/iPaulPro/aFileChooser/blob/master/aFileChooser/src/com/ianhanniballake/localstorage/LocalStorageProvider.java) class to load images from gallery in KitKat devices.
-
 
