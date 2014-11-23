@@ -30,6 +30,9 @@ A practical and easy-to-use Android application to apply several filters to imag
 * Tint
 * Vignette
 
+## Releases (apk)
+* Version 1.0: https://github.com/yaa110/Effects-Pro/releases
+
 **Note:** This project uses [LocalStorageProvider](https://github.com/iPaulPro/aFileChooser/blob/master/aFileChooser/src/com/ianhanniballake/localstorage/LocalStorageProvider.java) class to load images from gallery in KitKat devices.
 
 
