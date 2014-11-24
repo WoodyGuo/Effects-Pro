@@ -10,7 +10,7 @@ import android.net.Uri;
 
 public class BitmapLoader {
 
-	public Bitmap load(Context context, int[] holderDimention, String image_url) throws Exception {
+	public Bitmap load(Context context, int[] holderDimension, String image_url) throws Exception {
 		BitmapFactory.Options bitmapOptions = new BitmapFactory.Options();
 		bitmapOptions.inJustDecodeBounds = true;
 		BitmapFactory.decodeFile(image_url, bitmapOptions);
@@ -20,8 +20,8 @@ public class BitmapLoader {
 		final int outWidth = bitmapOptions.outWidth;
 		final int outHeight = bitmapOptions.outHeight;
 
-		final int holderWidth = holderDimention[0];
-		final int holderHeight = holderDimention[1];
+		final int holderWidth = holderDimension[0];
+		final int holderHeight = holderDimension[1];
 
 		// Calculation inSampleSize
 		if (outHeight > holderHeight || outWidth > holderWidth) {
@@ -40,10 +40,10 @@ public class BitmapLoader {
 		return BitmapProcessing.modifyOrientation(BitmapFactory.decodeFile(image_url, bitmapOptions), image_url);
 	}
 	
-	public Bitmap load(Context context, int[] holderDimention, Uri image_uri) throws Exception {
+	public Bitmap load(Context context, int[] holderDimension, Uri image_uri) throws Exception {
 		String image_url = UriToUrl.get(context, image_uri);
 		if (image_url != null) {
-			return load(context, holderDimention, image_url);
+			return load(context, holderDimension, image_url);
 		}
 		return null;
 	}
