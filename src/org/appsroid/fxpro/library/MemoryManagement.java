@@ -6,6 +6,9 @@ import android.content.Context;
 
 public class MemoryManagement {
 
+        /**
+         * Gets available memory to load image 
+        */
 	public static float free(Context context) {
 		ActivityManager am = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
 		int memoryClass = am.getMemoryClass() - 24;
