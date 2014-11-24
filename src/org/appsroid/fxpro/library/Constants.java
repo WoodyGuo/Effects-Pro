@@ -12,10 +12,4 @@ public class Constants {
 	
 	public static final int REQUEST_CAMERA = 0;
 	public static final int REQUEST_GALLERY = 1;
-
-
-
-
-
-
 }
