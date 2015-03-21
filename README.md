@@ -1,6 +1,6 @@
 Effects-Pro
 ===========
-[![Android Arsenal](https://img.shields.io/badge/Effects--Pro-Android%20Arsenal-green.svg)](https://android-arsenal.com/details/3/1299)[![SlideMe](https://img.shields.io/badge/Effects--Pro-SlideMe-green.svg)](http://slideme.org/application/effects-pro)
+[![Android Arsenal](https://img.shields.io/badge/Effects--Pro-Android%20Arsenal-green.svg)](https://android-arsenal.com/details/3/1299) [![SlideMe](https://img.shields.io/badge/Effects--Pro-SlideMe-green.svg)](http://slideme.org/application/effects-pro)
 
 A practical and easy-to-use Android application to apply several filters to an image at once.
 
