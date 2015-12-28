@@ -1,0 +1,31 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.0.0-alpha3'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    versionCode = 1
+    versionName = "1.0"
+
+    minSdkVersion = 14              // 最低支持的 Android 版本
+    targetSdkVersion = 22           // 目标 Android 版本
+
+    compileSdkVersion = 23          // 编译使用的 Android SDK 版本
+    buildToolsVersion = "22.0.1"    // 编译工具版本
+
+    abortOnError = false            // Lint
+
+    sourceJavaVersion = JavaVersion.VERSION_1_7
+    targetJavaVersion = JavaVersion.VERSION_1_7
+}
